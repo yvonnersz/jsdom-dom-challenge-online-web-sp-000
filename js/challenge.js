@@ -30,7 +30,7 @@ plus.addEventListener("click", function(e) {
 
 let currentNumberLikes = [];
 
-heart.addEventListener("click", function(event) {
+heart.addEventListener("click", function(e) {
   let li = document.createElement("li")
   let likeMessage = document.querySelector('.likes').appendChild(li)
 
