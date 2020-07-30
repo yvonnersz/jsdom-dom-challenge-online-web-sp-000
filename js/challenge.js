@@ -38,7 +38,7 @@ heart.addEventListener("click", function(e) {
   currentNumberLikes.push(currentNumber);
 
   let timesLiked = 0;
-  for (let i=0;i<currentNumberLikes.length-1; i++) {
+  for (let i=0;i<currentNumberLikes.length; i++) {
     if (currentNumber == currentNumberLikes[i]) {
       timesLiked++
     }
